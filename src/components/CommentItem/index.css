@@ -1,0 +1,88 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.commentContainer {
+  display: flex;
+}
+.likeAndDel {
+  display: flex;
+  justify-content: space-between;
+}
+.listItem {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.startLetter {
+  border-radius: 50%;
+  padding: 8px 13px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.commenterName {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.time {
+  margin-left: 20px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #94a3b8;
+}
+.commenterComment {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: 500;
+}
+.buttons {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.likeText {
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.liked {
+  color: #0b69ff;
+}
+.notLiked {
+  color: #94a3b8;
+}
+.likeImage {
+  padding-right: 10px;
+}

@@ -1,0 +1,86 @@
+/* Write your CSS here */
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+}
+.webImage {
+  width: 60%;
+}
+.heading {
+  color: #1e293b;
+}
+.saySomethingText {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+}
+.nameInput {
+  border: #cbd2d9 2px solid;
+  outline: none;
+  width: 300px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.textAreaInput {
+  border: #cbd2d9 2px solid;
+  outline: none;
+  width: 300px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.addCommentButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0284c7;
+  color: #cbd2d9;
+  border-radius: 3px;
+  padding: 5px 15px;
+  font-family: 'Roboto';
+}
+.commentsText {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 500;
+}
+.commentsCount {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 5px 9px;
+  border-radius: 3px;
+}
+.commentsContainer {
+  margin-left: -40px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .imageAndInputContainer {
+    display: flex;
+  }
+  .webImage {
+    width: 30%;
+    order: 1;
+  }
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+  }
+}
